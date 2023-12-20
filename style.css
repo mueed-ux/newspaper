@@ -1,0 +1,45 @@
+   @font-face {
+    font-family: "qalam" ;
+    src: url(fonts/alqalam\ AlQalam\ Amjad\ Alvi.ttf);
+   } 
+   @font-face {
+    font-family: "akram";
+    src: url(fonts/Akram\ Unicode\ Akram\ Unicode.ttf);
+   }
+   @font-face {
+    font-family:"sameer" ;
+    src: url(fonts/AA\ Sameer\ Almas\ Regular.ttf);
+   }
+   @font-face {
+      font-family: "qalamregular";
+      src: url(fonts/Al\ Qalam\ Regular.ttf);
+   }
+    .Div{ max-width:1000px; margin:auto;}
+
+    #header { width: 90%; background:rgb(249, 229, 229); padding:40px; color:#050505; font-weight:bolder; text-align: center;direction: rtl;font-size: 4em ;font-family:"qalam"; border: dashed rgb(114, 102, 102);}
+
+    #content { display:table;}
+
+
+    #right-block { padding:10px;background:rgb(254, 248, 248);  font-size:15px; text-align: left; color:#050505; font-family:'open sans';font-weight:100; display:table-cell; width:100%;  vertical-align:top;direction: rtl;border: solid black;}
+
+
+    div > h2 {font-family:"qalam";color: #050505; text-align: right;}
+
+    div > h3 {color: #020101; text-align: right;background-size: text ;}
+
+    div > img {width: 100%; height: auto ;}
+
+    h4 {text-decoration: underline;text-align: right;color: black;}
+
+    div > p {font-family: "akram" serif; text-align: right; direction: rtl; font-size: large; }
+
+    a {text-decoration: none; color: #0c0b0b;}
+
+    h4+h2 {font-family: "sameer"; text-align: right;}
+
+    a > img {width: 100%; height: auto; border-radius: 1.5em;}
+
+    h1 {text-align: center; font-family: "qalam";}
+ 
+    .p { color: black;}
